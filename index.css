@@ -893,15 +893,16 @@ footer {
   /* Sidebar Adjustments */
   .left-sidebar, .right-sidebar {
     width: 25%; /* Slightly wider sidebars on tablets */
-    height: auto;
+    height: 100vh;
   }
 
   /* Middle Part Adjustments */
   .middle-part {
     width: 50%; /* Takes half of the screen */
     padding: 20px;
-    max-height: 85vh;
+    max-height: 100vh;
     overflow-y: auto;
+  
   }
 
   /* Header*/
